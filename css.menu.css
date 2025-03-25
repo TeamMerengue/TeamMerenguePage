@@ -1,0 +1,434 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #007bff;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #003366;
+  padding: 15px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+header nav .logo img {
+  width: 120px;
+  cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+header nav .logo img:hover {
+  width: 125px;
+}
+
+header nav .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+header nav .nav-links li {
+  margin-left: 30px;
+}
+
+header nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: font-size 0.5s ease;
+}
+
+header nav .nav-links li a:hover {
+  font-size: 20px;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #0004;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  animation: fadeIn 6s ease-in-out;
+}
+
+/* FadeIn Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Team Section */
+.sau {
+  margin: 0;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+.sau h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.sau p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 0 100px;
+}
+/* box */
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+/*box*/
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.box i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 1.1rem;
+  color: #000000;
+  
+}
+
+
+.box1-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.box1 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.box2-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.box2{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.box3-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.box3 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/*box1*/
+.box1:hover {
+  transform: translateY(-10px);
+}
+
+.box1 i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box1 h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box1 p {
+  font-size: 1.1rem;
+  color: #000000;
+}
+/*box2*/
+.box2:hover {
+  transform: translateY(-10px);
+}
+
+.box2 i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box2 h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box2 p {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+/*box3*/
+.box3:hover {
+  transform: translateY(-10px);
+}
+
+.box3 i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box3 h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box3 p {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+/* FRC Section */
+.frc-info {
+  padding: 60px 20px;
+  background-color: #0036ac;
+}
+
+.frc-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.frc-info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.frc-info .frc-logo {
+  width: 200px;
+  margin-top: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background-color: #0080ff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact .social-links {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contact .social-links li {
+  margin-bottom: 10px;
+}
+
+.contact .social-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+
+.contact .social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #1A237E;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+footer .titulo-footer {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+footer input,
+footer textarea {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  transition: box-shadow 0.3s;
+}
+
+footer input:focus,
+footer textarea:focus {
+  box-shadow: 0 0 10px #64B5F6;
+}
+
+footer input[type="submit"] {
+  background: #D32F2F;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+}
+
+footer input[type="submit"]:hover {
+  background: #B71C1C;
+  transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav .nav-links {
+    flex-direction: column;
+  }
+
+  .sau .box-container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Reveal elements on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scroll-down arrow */
+.flecha {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  animation: saltar 1.5s infinite;
+}
+
+@keyframes saltar {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Duplicate flecha styles */
+.flecha {
+  color: red;
+}
+
+/* Gallery Section */
+.galeria {
+  flex-direction: column;
+}
