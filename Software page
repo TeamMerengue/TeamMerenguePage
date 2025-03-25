@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Team Merengue, equipo de robótica participando en la First Robotics Competition 2025">
+    <title>Team Merengue | FRC 2025</title>
+    <link rel="stylesheet" href="Css Menu.css">
+    <!-- Enlace a Google Fonts para mejorar tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Imagenes/WhatsApp Image 2025-03-01 at 8.31.23 PM-Photoroom.png"
+                    alt="Logo Team Merengue">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#bienvenida">Bienvenida</a></li>
+                <li><a href="#equipo">Nuestro Equipo</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#frc">¿Qué es FRC?</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+</head>
+<body >
+<!--LOGO-->
+   <div class="head">
+        <div class="logo">
+            <img SRC="#LOGO"></a>
+        </div>
+<!--LOGO-->
+
+   </div>
+
+
+   <header class="content header">
+
+      <img id="imagen" src="TM.img/Software menu.jpeg"
+      ></img>
+      
+   
+   </header>
+   <a name="Nosotros"></a>
+   <section class="content nosotros">
+
+       <article class="contain">
+<center>
+           <h2 class="title">Nosotros</h2>
+           <p>         El equipo de software es el encargado de darle vida al robot, ponerle sus limites, entablar una 
+               <br>comunicación entre el control y él. Todo esto logramos hacerlo a traves 
+               <br>de una serie de codigos, utilizando el lengua de programación "Java"</p>
+           <a href="#pagina hacia informacion de java" class="btn">Saber más sobre Java</a>
+        </center>
+       </article>
+
+<a name="Paquetes"></a>
+   <section class="content sau">
+       <h2 class="title">Equipo de Software</h2>
+       <p> 
+       infomación
+        </p>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fab"><img src="Img/wifi.svg"></i>
+                <h3>Jeremy Rosario</h3>
+                <p>Rulekeeper
+                    <br>
+                  
+                    <br>
+            
+                 <br>
+                
+                 </p>
+            </div>
+
+            <div class="box">
+                <i class="fab"><img src="Imagenes/Lider SO.png"></i>
+                <h3>Ashley González</h3>
+                <p>Líder
+                     <br>
+                    Ashley lidera el equipo de software, asegurándose de que la programación de Two 
+                    Fingers sea precisa y efectiva en cada desafío del juego.
+                    <br>
+                    Su función principal es 
+                    coordinar la implementación de los sistemas de control y autonomía del robot, 
+                    optimizando su desempeño en la competencia.
+                    <br>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fab"><img src="Img/wifi.svg"></i>
+                <h3>Oscar Recio</h3>
+                <p>Integrante
+                    <br>
+                 
+                    <br>
+               
+                    <br>
+                    
+                </p>
+               
+            </div>
+<a name="Servicios"></a>
+        </div>
+
+   </section>
+      <br>
+      <br>
+      <br>
+   <section class="content about">
+    <br>
+    <br>
+    <center>
+        <h2 class="title">¿Qué hacemos?</h2>
+        <p>El equipo se divide en tres partes fundamentales para su funcionamiento y estas son:</p>
+        <div class="box-container2">
+        </center>
+<center>
+            <div class="box1">
+                <img src="Imagenes/libros-de-reglas.png">
+                <h3>Rulekeeper</h3>
+                <p>Un rulekeeper en un equipo de software es responsable de definir, gestionar y asegurar que se sigan las reglas y principios del proyecto. Esto incluye asegurar que el código siga las buenas prácticas, que se mantengan las normas de calidad, y que el equipo cumpla con los procesos establecidos durante el desarrollo. Su función es garantizar la coherencia y la calidad a lo largo del ciclo de vida del proyecto.</p>
+            
+
+            </div>
+
+            <div class="box2">
+                <img src="Imagenes/desarrollo-web.png">
+                <h3>Lider</h3>
+                <p>Es responsable de guiar, motivar y coordinar al equipo para alcanzar los objetivos del proyecto. Toma decisiones clave, gestiona el progreso, resuelve problemas y se asegura de que el equipo esté alineado con la visión y los plazos del proyecto. Además, facilita la comunicación entre los miembros del equipo y otros interesados.</p>
+                
+
+            </div>
+
+            <div class="box3 ">
+                <img src="Imagenes/ingeniero.png">
+                <h3>Integrante</h3>
+                <p>Es un miembro que contribuye activamente en el desarrollo del proyecto. Su rol puede incluir escribir código, realizar pruebas, implementar soluciones y colaborar con otros miembros del equipo para cumplir con los objetivos del proyecto. Los integrantes siguen las directrices del líder y trabajan en tareas específicas dentro del ciclo de desarrollo.</p>
+                
+
+            </div>
+        </center
+        
+           </section>
+        </div>
+        
+   </section>
+  
+    
+</body>
+
+<footer>
+    <div class="contenedor">
+        <h2 class="titulo-footer">Contáctanos</h2>
+
+        <form action="">
+            <label for="pais">Selecciona tu país:</label>
+            <select id="pais" name="pais" onchange="actualizarPrefijo()">
+                <option value="+1">Estados Unidos (+1)</option>
+                <option value="+34">España (+34)</option>
+                <option value="+44">Reino Unido (+44)</option>
+                <option value="+52">México (+52)</option>
+                <option value="+54">Argentina (+54)</option>
+                <!-- Agrega más países según sea necesario -->
+            </select>
+        </form>
+
+        <form id="contacto-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" 
+                   maxlength="20" required>     
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Escribe tu mensaje..." required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>  
+    <div id="flecha-abajo" class="flecha" onclick="irAbajo()"> contacto</div>
+
+<!-- Sección destino (Ejemplo) -->
+<section id="contacto">
+<h2>¡Bienvenido a la sección de contacto!</h2>
+</footer>
+<!-- Flecha de desplazamiento -->
+
+</section>
+</body>
+<script src="script.js"> </script>
+</html>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Team Merengue. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Enlace a la librería de animaciones -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+</body>
+
+
+</html>
