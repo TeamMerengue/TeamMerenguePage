@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Team Merengue, equipo de robótica participando en la First Robotics Competition 2025">
+    <title>Team Merengue | FRC 2025</title>
+    <link rel="stylesheet" href="Css Menu.css">
+    <!-- Enlace a Google Fonts para mejorar tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #007bff;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #003366;
+  padding: 15px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+header nav .logo img {
+  width: 120px;
+  cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+header nav .logo img:hover {
+  width: 125px;
+}
+
+header nav .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+header nav .nav-links li {
+  margin-left: 30px;
+}
+
+header nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: font-size 0.5s ease;
+}
+
+header nav .nav-links li a:hover {
+  font-size: 20px;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #0004;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  animation: fadeIn 6s ease-in-out;
+}
+
+/* FadeIn Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Team Section */
+.sau {
+  margin: 0;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+.sau h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.sau p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 0 100px;
+}
+/* box */
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+/*box*/
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.box i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 1.1rem;
+  color: #000000;
+  
+}
+
+
+.box1-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.box1 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.box2-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.box2{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.box3-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.box3 {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/*box1*/
+.box1:hover {
+  transform: translateY(-10px);
+}
+
+.box1 i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box1 h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box1 p {
+  font-size: 1.1rem;
+  color: #000000;
+}
+/*box2*/
+.box2:hover {
+  transform: translateY(-10px);
+}
+
+.box2 i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box2 h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box2 p {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+/*box3*/
+.box3:hover {
+  transform: translateY(-10px);
+}
+
+.box3 i img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.box3 h3 {
+  font-size: 1.6rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.box3 p {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+/* FRC Section */
+.frc-info {
+  padding: 60px 20px;
+  background-color: #0036ac;
+}
+
+.frc-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.frc-info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.frc-info .frc-logo {
+  width: 200px;
+  margin-top: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background-color: #0080ff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact .social-links {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contact .social-links li {
+  margin-bottom: 10px;
+}
+
+.contact .social-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+
+.contact .social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #1A237E;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+footer .titulo-footer {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+footer input,
+footer textarea {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  transition: box-shadow 0.3s;
+}
+
+footer input:focus,
+footer textarea:focus {
+  box-shadow: 0 0 10px #64B5F6;
+}
+
+footer input[type="submit"] {
+  background: #D32F2F;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+}
+
+footer input[type="submit"]:hover {
+  background: #B71C1C;
+  transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav .nav-links {
+    flex-direction: column;
+  }
+
+  .sau .box-container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Reveal elements on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scroll-down arrow */
+.flecha {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  animation: saltar 1.5s infinite;
+}
+
+@keyframes saltar {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Duplicate flecha styles */
+.flecha {
+  color: red;
+}
+
+/* Gallery Section */
+.galeria {
+  flex-direction: column;
+}
+    </style>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Imagenes/WhatsApp Image 2025-03-01 at 8.31.23 PM-Photoroom.png"
+                    alt="Logo Team Merengue">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#bienvenida">Bienvenida</a></li>
+                <li><a href="#equipo">Nuestro Equipo</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#frc">¿Qué es FRC?</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+</head>
+<body >
+<!--LOGO-->
+   <div class="head">
+        <div class="logo">
+            <img SRC="#LOGO"></a>
+        </div>
+<!--LOGO-->
+
+   </div>
+
+
+   <header class="content header">
+
+      <img id="imagen" src="TM.img/Software menu.jpeg"
+      ></img>
+      
+   
+   </header>
+   <a name="Nosotros"></a>
+   <section class="content nosotros">
+
+       <article class="contain">
+<center>
+           <h2 class="title">Nosotros</h2>
+           <p>         El equipo de software es el encargado de darle vida al robot, ponerle sus limites, entablar una 
+               <br>comunicación entre el control y él. Todo esto logramos hacerlo a traves 
+               <br>de una serie de codigos, utilizando el lengua de programación "Java"</p>
+           <a href="#pagina hacia informacion de java" class="btn">Saber más sobre Java</a>
+        </center>
+       </article>
+
+<a name="Paquetes"></a>
+   <section class="content sau">
+       <h2 class="title">Equipo de Software</h2>
+       <p> 
+       infomación
+        </p>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fab"><img src="Img/wifi.svg"></i>
+                <h3>Jeremy Rosario</h3>
+                <p>Rulekeeper
+                    <br>
+                  
+                    <br>
+            
+                 <br>
+                
+                 </p>
+            </div>
+
+            <div class="box">
+                <i class="fab"><img src="Imagenes/Lider SO.png"></i>
+                <h3>Ashley González</h3>
+                <p>Líder
+                     <br>
+                    Ashley lidera el equipo de software, asegurándose de que la programación de Two 
+                    Fingers sea precisa y efectiva en cada desafío del juego.
+                    <br>
+                    Su función principal es 
+                    coordinar la implementación de los sistemas de control y autonomía del robot, 
+                    optimizando su desempeño en la competencia.
+                    <br>
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fab"><img src="Img/wifi.svg"></i>
+                <h3>Oscar Recio</h3>
+                <p>Integrante
+                    <br>
+                 
+                    <br>
+               
+                    <br>
+                    
+                </p>
+               
+            </div>
+<a name="Servicios"></a>
+        </div>
+
+   </section>
+      <br>
+      <br>
+      <br>
+   <section class="content about">
+    <br>
+    <br>
+    <center>
+        <h2 class="title">¿Qué hacemos?</h2>
+        <p>El equipo se divide en tres partes fundamentales para su funcionamiento y estas son:</p>
+        <div class="box-container2">
+        </center>
+<center>
+            <div class="box1">
+                <img src="Imagenes/libros-de-reglas.png">
+                <h3>Rulekeeper</h3>
+                <p>Un rulekeeper en un equipo de software es responsable de definir, gestionar y asegurar que se sigan las reglas y principios del proyecto. Esto incluye asegurar que el código siga las buenas prácticas, que se mantengan las normas de calidad, y que el equipo cumpla con los procesos establecidos durante el desarrollo. Su función es garantizar la coherencia y la calidad a lo largo del ciclo de vida del proyecto.</p>
+            
+
+            </div>
+
+            <div class="box2">
+                <img src="Imagenes/desarrollo-web.png">
+                <h3>Lider</h3>
+                <p>Es responsable de guiar, motivar y coordinar al equipo para alcanzar los objetivos del proyecto. Toma decisiones clave, gestiona el progreso, resuelve problemas y se asegura de que el equipo esté alineado con la visión y los plazos del proyecto. Además, facilita la comunicación entre los miembros del equipo y otros interesados.</p>
+                
+
+            </div>
+
+            <div class="box3 ">
+                <img src="Imagenes/ingeniero.png">
+                <h3>Integrante</h3>
+                <p>Es un miembro que contribuye activamente en el desarrollo del proyecto. Su rol puede incluir escribir código, realizar pruebas, implementar soluciones y colaborar con otros miembros del equipo para cumplir con los objetivos del proyecto. Los integrantes siguen las directrices del líder y trabajan en tareas específicas dentro del ciclo de desarrollo.</p>
+                
+
+            </div>
+        </center
+        
+           </section>
+        </div>
+        
+   </section>
+
+   <footer>
+    <div class="contenedor">
+        <h2 class="titulo-footer">Contáctanos</h2>
+
+        <form action="" id="opciones" >
+            <label for="pais">Selecciona tu país:</label>
+            <select id="pais" name="pais" onchange="actualizarPrefijo()">
+                <option value="+1">República Dominicana (+1)</option>
+                <option value="+1">Estados Unidos (+1)</option>
+                <option value="+1">Puerto Rico (+1)</option>
+                <option value="+34">España (+34)</option>
+                <option value="+44">Reino Unido (+44)</option>
+                <option value="+52">México (+52)</option>
+                <option value="+54">Argentina (+54)</option>
+                <option value="+55">Brazil (+55)</option>
+                <option value="+60">Colombia (+60)</option>
+                <option value="+33">Francia (+33)</option>
+                <option value="+51">Perú (+51)</option>
+                <option value="+33">Panamá (+33)</option>
+                <option value="+49">Alemania (+49)</option>
+                <option value="+81">Japón (+81)</option>
+                <option value="+91">India (+91)</option>
+                <option value="+502">Guatemala (+502)</option>
+                <!-- Agrega más países según sea necesario -->
+            </select>
+        </form>
+
+        <form id="contacto-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" 
+                   maxlength="20" required>     
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Escribe tu mensaje..." required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>  
+    <div id="flecha-container" onclick="irAbajo()">
+        <div id="flecha-abajo" class="flecha">
+            <img src="Imagenes/flecha-hacia-abajo.png" alt="Flecha hacia abajo"> Contacto
+        </div>
+    </div>
+    
+<section id="contacto"><br><br>
+    <h2>¡Bienvenido a la sección de contacto!</h2>
+
+
+    <!-- Frase y enlace al Instagram -->
+    <div class="instagram-container">
+        <p>¡Síguenos en Instagram!</p>
+        <a href="https://www.instagram.com/team_merengue10635/" target="_blank" class="instagram-icon">
+            <img src="Imagenes/social.png" alt="Instagram" />
+        </a>
+    </div>
+    </footer>
+</section>
+
+    <footer>
+        <div class="container">
+            <p style ="margin-top: -50px; ; ">&copy; 2025 Team Merengue. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Enlace a la librería de animaciones -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+
+
+
+   </body>
+
+
+</html>
